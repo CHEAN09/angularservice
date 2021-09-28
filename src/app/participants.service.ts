@@ -3,8 +3,8 @@ export class ParticapantsService {
         return [
             {name:"Karl Andrei Verano", age:"21", gender:"Male"},
             {name:"Cherah Mae Cuabo", age:"21", gender:"Female"},
-            {name:"Karl", age:"21", gender:"Male"},
-            {name:"Karl Andrei Verano", age:"21", gender:"Male"},
+            {name:"Karylle Verano", age:"17", gender:"Female"},
+            {name:"Menard Tangaro", age:"19", gender:"Male"},
           ];
     }
 }

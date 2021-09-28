@@ -4,15 +4,24 @@
 
 <h4>List of Participants</h4>
 
+<div class="card-body">
+    <table class="table">
+        <tbody>
+          <tr *ngFor="let participant of display">
+              <td>{{participant.name}}</td>
+              <td class="text-center bg-primary">{{participant.age}} years old</td>
+          </tr>
+        </tbody>
+    </table>
+</div>
 
-    <li *ngFor = "let participant of participants" class="list-group-item list-group-item-dark">
-        <div class="float-start">{{participant.name}} </div>
-        <div class="float-end bg-primary ">{{participant.age}} years old</div>
-    </li>
+   
+
     <div class="btn-group float-end" role="group" >
         <button class="btn btn-danger" (click)="showMale()">Male</button>
         <button  class="btn btn-warning " (click)="showFemale()">Female</button>
         <button  class="btn btn-success" (click)="showAll()">All</button>
     </div>
+    
   </ul>
 </div>
