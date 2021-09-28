@@ -26,8 +26,5 @@ export class ParticipantsComponent  {
   showAll(){
     this.display = this.participants;
   }
-  filterGender(gender: string){
-    this.display = this.participants.filter(participant => participant.gender === gender)
-  }
  
 }
