@@ -21,7 +21,7 @@ export class ParticipantsComponent  {
   }
   showFemale(){
     this.display = this.participants;
-    this.display = this.participants.filter(participant => participant.gender === 'Male');
+    this.display = this.participants.filter(participant => participant.gender === 'Female');
   }
   showAll(){
     this.display = this.participants;
